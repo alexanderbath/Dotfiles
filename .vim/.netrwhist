@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/alexanderbath/Documents/Python/schedule/fixing_schedule'
+let g:netrw_dirhist_2='/Users/alexanderbath/Documents/Python/schedule/fixing_schedule/static'
+let g:netrw_dirhist_3='/Users/alexanderbath/Documents/Python/schedule/fixing_schedule/static/fixing_schedule'
+let g:netrw_dirhist_4='/Users/alexanderbath/Documents/Python/schedule/fixing_schedule'
+let g:netrw_dirhist_5='/Users/alexanderbath/Documents/Python/schedule/fixing_schedule/templates/fixing_schedule'
+let g:netrw_dirhist_6='/Users/alexanderbath/Documents/Python/slateorders/slatedatabase'
