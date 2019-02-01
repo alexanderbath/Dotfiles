@@ -61,6 +61,15 @@ xmap K 8k
 xmap H 8h
 xmap L 8l
 
+" Save a keystroke to move between splits.
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
+" Make split less retarded.
+set splitbelow splitright
+
 " Solarized stuff - Colorscheme
 let g:solarized_termtrans = 1
 colorscheme solarized
