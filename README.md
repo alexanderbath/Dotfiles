@@ -7,5 +7,35 @@ A collection of unix dotfiles for my most used applications. These files are gen
 - Git
 - Bash
 
+## Key Bindings
+These are mostly here for my own reference.. because memory.
+### Vim 
+Quick Movement
+- H - Moves left 8 cols.
+- L - Moves right 8 cols.
+- J - Moves down 8 rows.
+- K - Moves up 8 rows.
+
+NERDTree
+- Ctrl-o - Opens NERDTree sidebar.
+
+Splits
+- Ctrl-h - Moves focus left.
+- Ctrl-j - Moves focus down.
+- Ctrl-k - Moves focus up.
+- Ctrl-l - Moves focus right.
+
+### Tmux
+Leader is set to Ctrl-Space.
+
+Split
+- v - Vertical split.
+- c - Horizontal split.
+- Leader+Arrows to move between splits.
+
+Resize Panes
+- h/j/k/l - Resize pane 5 cols/rows.
+- H/J/K/L - Resize pane 10 cols/rows.
+
 ## Notes
 Vim requires Vundle installed to correctly download and install the required plugins.
