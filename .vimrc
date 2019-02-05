@@ -21,6 +21,10 @@ Plugin 'scrooloose/nerdtree'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+" GitGutter config.
+let g:gitgutter_realtime=1
+set updatetime=250
+
 " Lightline config.
 set laststatus=2
 set noshowmode
