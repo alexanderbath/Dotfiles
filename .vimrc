@@ -86,3 +86,6 @@ set hlsearch
 " Code folding 
 set foldmethod=indent
 set foldlevel=99
+
+" Map build script shortcut.
+nnoremap <C-b> :!./build<CR> 

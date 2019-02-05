@@ -25,6 +25,8 @@ Splits
 - Ctrl-k - Moves focus up.
 - Ctrl-l - Moves focus right.
 
+Ctrl-b will run a script named 'build' in the directory Vim was launched from. I use it to build SASS mostly.
+
 ### Tmux
 Leader is set to Ctrl-Space.
 
