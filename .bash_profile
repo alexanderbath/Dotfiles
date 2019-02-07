@@ -7,3 +7,6 @@ export PATH
 PS1='\u [\w]: '
 
 alias chrome='open -a "Google Chrome" "$*"'
+
+# Enable colorized ls output.
+alias ls='ls -G'
