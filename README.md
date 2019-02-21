@@ -34,6 +34,7 @@ Split
 - v - Vertical split.
 - c - Horizontal split.
 - Leader+Arrows to move between splits.
+- w - Create new window.
 
 Resize Panes
 - h/j/k/l - Resize pane 5 cols/rows.
