@@ -13,7 +13,6 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'itchyny/lightline.vim'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'w0rp/ale'
 Plugin 'mattn/emmet-vim'
 Plugin 'scrooloose/nerdtree'
 
