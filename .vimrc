@@ -16,6 +16,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'mattn/emmet-vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'vimwiki/vimwiki'
+Plugin 'tmhedberg/SimpyLFold'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
