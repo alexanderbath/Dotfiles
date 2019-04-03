@@ -17,6 +17,8 @@ Plugin 'mattn/emmet-vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'vimwiki/vimwiki'
 Plugin 'tmhedberg/SimpyLFold'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'tpope/vim-jdaddy'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
