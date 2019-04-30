@@ -15,3 +15,6 @@ alias ls='ls -G'
 
 # Quick jump to projects directory.
 alias cdp='cd ~/projects/'
+
+# Make dirs readable.
+alias dirs='dirs -v'
