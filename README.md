@@ -27,6 +27,12 @@ Splits
 
 Ctrl-b will run a script named 'build' in the directory Vim was launched from. I use it to build SASS mostly.
 
+Ctrl-r will automatically remove all trailing whitespace from the file.
+
+### Bash
+- cdp is alaised to 'cd ~/projects'. This allows me to jump to my projects directory easily from anywhere.
+- dirs is aliased to 'dirs -v' to make it readable, as well as add directory ids.
+
 ### Tmux
 Leader is set to Ctrl-Space.
 
