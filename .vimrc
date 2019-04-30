@@ -102,4 +102,4 @@ set foldlevel=99
 nnoremap <C-b> :!./build<CR>
 
 " F5 to remove trailing whitespace.
-:nnoremap <C-w> :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
+nnoremap <C-r> :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
