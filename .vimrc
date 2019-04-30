@@ -35,7 +35,7 @@ let g:lightline = {
     \ 'colorscheme': 'solarized',
     \ }
 
-" Nerdtree config. 
+" Nerdtree config.
 let g:NERDTreeNodeDelimiter = "\u00a0"
 map <C-o> :NERDTreeToggle<CR>
 let NERDTreeQuitOnOpen = 1
@@ -50,9 +50,9 @@ set number
 set expandtab
 
 " Set tab width.
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 
 " Turn on auto indent.
 set autoindent
@@ -87,18 +87,19 @@ colorscheme solarized
 set background=dark
 
 " Create .todo filetype.
-au BufRead,BufNewFile *.todo setfiletype todo 
+au BufRead,BufNewFile *.todo setfiletype todo
 
 " 21st Century Search
 set ignorecase
 set incsearch
 set hlsearch
 
-" Code folding 
+" Code folding
 set foldmethod=indent
 set foldlevel=99
 
 " Map build script shortcut.
+nnoremap <C-b> :!./build<CR>
 
 " F5 to remove trailing whitespace.
 :nnoremap <C-w> :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
