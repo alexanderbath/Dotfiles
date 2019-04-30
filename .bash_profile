@@ -18,3 +18,6 @@ alias cdp='cd ~/projects/'
 
 # Make dirs readable.
 alias dirs='dirs -v'
+
+# Vi keys 
+set -o vi
