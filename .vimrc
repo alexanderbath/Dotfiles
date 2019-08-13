@@ -19,6 +19,7 @@ Plugin 'vimwiki/vimwiki'
 Plugin 'tmhedberg/SimpyLFold'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'tpope/vim-jdaddy'
+Plugin 'tpope/vim-surround'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
