@@ -101,7 +101,7 @@ set foldmethod=indent
 set foldlevel=99
 
 " Map build script shortcut.
-nnoremap <C-b> :!./build<CR>
+nnoremap <C-b> :!./compile<CR>
 
 " F5 to remove trailing whitespace.
 nnoremap <C-r> :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
