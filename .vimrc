@@ -40,6 +40,7 @@ let g:lightline = {
 let g:NERDTreeNodeDelimiter = "\u00a0"
 map <C-o> :NERDTreeToggle<CR>
 let NERDTreeQuitOnOpen = 1
+:let g:NERDTreeWinSize=40
 
 " Set syntax highlighting to on.
 :syntax on
