@@ -83,6 +83,10 @@ map <C-a> <C-x><C-o>
 " Make split less retarded.
 set splitbelow splitright
 
+" Easier tab switching.
+nnoremap <C-n> :tabn<CR>
+nnoremap <C-p> :tabp<CR>
+
 " Solarized stuff - Colorscheme
 let g:solarized_termtrans = 1
 colorscheme solarized
