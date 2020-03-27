@@ -25,6 +25,10 @@ Splits
 - Ctrl-k - Moves focus up.
 - Ctrl-l - Moves focus right.
 
+Tabs
+- Ctrl-n - Move to next tab.
+- Ctrl-p - Move to previous tab.
+
 Ctrl-b will run a script named 'build' in the directory Vim was launched from. I use it to build SASS mostly.
 
 Ctrl-r will automatically remove all trailing whitespace from the file.
