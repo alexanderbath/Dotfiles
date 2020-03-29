@@ -20,6 +20,7 @@ Plugin 'tmhedberg/SimpyLFold'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'tpope/vim-jdaddy'
 Plugin 'tpope/vim-surround'
+Plugin 'gruvbox-community/gruvbox'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -88,9 +89,11 @@ nnoremap <C-n> :tabn<CR>
 nnoremap <C-p> :tabp<CR>
 
 " Solarized stuff - Colorscheme
-let g:solarized_termtrans = 1
-colorscheme solarized
-set background=dark
+"let g:solarized_termtrans = 1
+"colorscheme solarized
+"set background=dark
+
+colorscheme gruvbox
 
 " Create .todo filetype.
 au BufRead,BufNewFile *.todo setfiletype todo
