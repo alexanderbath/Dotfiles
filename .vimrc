@@ -20,7 +20,7 @@ Plugin 'tmhedberg/SimpyLFold'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'tpope/vim-jdaddy'
 Plugin 'tpope/vim-surround'
-Plugin 'gruvbox-community/gruvbox'
+Plugin 'sonph/onehalf', {'rtp': 'vim/'}
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -33,9 +33,7 @@ set updatetime=250
 " Lightline config.
 set laststatus=2
 set noshowmode
-let g:lightline = {
-    \ 'colorscheme': 'solarized',
-    \ }
+let g:lightline = { 'colorscheme': 'onehalfdark' }
 
 " Nerdtree config.
 let g:NERDTreeNodeDelimiter = "\u00a0"
@@ -88,12 +86,8 @@ set splitbelow splitright
 nnoremap <C-n> :tabn<CR>
 nnoremap <C-p> :tabp<CR>
 
-" Solarized stuff - Colorscheme
-"let g:solarized_termtrans = 1
-"colorscheme solarized
-"set background=dark
-
-colorscheme gruvbox
+set t_Co=256
+colorscheme onehalfdark
 
 " Create .todo filetype.
 au BufRead,BufNewFile *.todo setfiletype todo
@@ -112,3 +106,9 @@ nnoremap <C-b> :!./compile<CR>
 
 " F5 to remove trailing whitespace.
 nnoremap <C-r> :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
+
+if exists('+termguicolors')
+    let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+    let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+    set termguicolors
+endif
